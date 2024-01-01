@@ -1,0 +1,15 @@
+domain: telecom
+task_split: base
+skills:
+- telecom/troubleshoot_checklist
+- telecom/data_diagnosis
+- telecom/roaming_resolver
+- telecom/escalation_guard
+model: openai/Qwen/Qwen3-235B-A22B-Instruct-2507
+llm_args:
+  api_base: http://localhost:32800/v1
+  api_key: not-needed
+  temperature: 0.0
+task_ids: null
+max_steps: 200
+seed: 300

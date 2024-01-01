@@ -1,0 +1,15 @@
+
+dialogue-parser
+court-form-filling
+fix-build-agentops
+
+weighted-gdp-calc
+adaptive-cruise-control
+citation-check
+find-topk-similiar-chemicals
+exoplanet-detection-period
+exceltable-in-ppt
+
+3d-scan-calc
+earthquake-phase-association
+dapt-intrusion-detection

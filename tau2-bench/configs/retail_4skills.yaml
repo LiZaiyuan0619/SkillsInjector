@@ -1,0 +1,14 @@
+domain: retail
+skills:
+- retail/action_executor
+- retail/variant_matcher
+- retail/multi_task_tracker
+- retail/order_action_router
+model: openai/Qwen/Qwen3-235B-A22B-Instruct-2507
+llm_args:
+  api_base: http://localhost:32800/v1
+  api_key: not-needed
+  temperature: 0.0
+task_ids: null
+max_steps: 200
+seed: 300

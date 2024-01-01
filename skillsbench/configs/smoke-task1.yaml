@@ -1,0 +1,12 @@
+tasks_dir: <REPO_ROOT>/single-task
+jobs_dir: <REPO_ROOT>/jobs/smoke-task1
+agent: pi-acp
+model: Qwen/Qwen3-235B-A22B-Instruct-2507
+environment: docker
+concurrency: 1
+max_retries: 0
+agent_env:
+  BENCHFLOW_PROVIDER_PROTOCOL: openai-completions
+  BENCHFLOW_PROVIDER_BASE_URL: http://<INFERENCE_HOST>:32800/v1
+  BENCHFLOW_PROVIDER_API_KEY: EMPTY
+  BENCHFLOW_PROVIDER_MODEL: Qwen/Qwen3-235B-A22B-Instruct-2507
